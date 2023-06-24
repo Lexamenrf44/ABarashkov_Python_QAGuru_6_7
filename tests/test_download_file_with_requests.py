@@ -9,7 +9,6 @@ path_to_file = os.path.abspath(os.path.join(TMP_DIR, 'selenium_logo.png'))
 
 
 def test_download_file_with_requests(tmp_dir_manager):
-
     response = requests.get(url)
 
     # Проверяем результаты
